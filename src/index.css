@@ -11,3 +11,65 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.heading {
+  height: 90px;
+  background-image: linear-gradient(#0f2862, #11317d);
+  color: white;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+/* Anchors */
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(224, 224, 224);
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+/* Footer */
+
+footer {
+  bottom: 0;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-image: linear-gradient(#0f2862, #11317d);
+  color: white;
+}
+
+/* Form */
+.borderedDiv {
+  border-style: solid;
+  border-color: #2f4588;
+  border-radius: 8px;
+  background-color: white;
+}
+
+/* Bottom */
+
+.submitButton {
+  background-color: #1842a6;
+  border-color: #1842a6;
+}
+.submitButton:hover {
+  background-color: #0f2862;
+  border-color: #0f2862;
+}
