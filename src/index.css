@@ -18,6 +18,10 @@ code {
   color: white;
 }
 
+.selected {
+  font-weight: bold;
+}
+
 h2 {
   font-weight: bold;
 }
@@ -56,6 +60,7 @@ footer {
 }
 
 /* Form */
+
 .borderedDiv {
   border-style: solid;
   border-color: #2f4588;
