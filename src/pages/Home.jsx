@@ -47,9 +47,9 @@ function Home() {
           </Container>
 
         <div style={{ height: '30px' }} />
-        <h4 className="text-center pt-3 pb-3">
+        <h3 className="text-center pt-3 pb-3">
         Start Collecting Evidence
-        </h4>
+        </h3>
         <div style={{ height: '15px' }} />
 
         <ButtonLink to="/collection" >
