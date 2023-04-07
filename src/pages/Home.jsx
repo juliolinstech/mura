@@ -1,6 +1,7 @@
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import { Container, Row, Col, Button } from 'react-bootstrap';
+import ButtonLink from '../components/ButtonLink';
 
 function Home() {
     return (
@@ -51,9 +52,9 @@ function Home() {
         </h4>
         <div style={{ height: '15px' }} />
 
-        <Button className="submitButton" variant="primary" type="submit">
-            Collect
-        </Button>
+        <ButtonLink to="/collection" >
+          Collect
+        </ButtonLink>
 
         </header>
       <Footer />
