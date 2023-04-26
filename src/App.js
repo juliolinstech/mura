@@ -1,6 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
 
+import {Amplify, API} from "aws-amplify";
+
 import Home from './pages/Home';
 import Collection from './pages/Collection';
 import Verification from './pages/Verification';
@@ -11,6 +13,19 @@ import {
   Routes,
   Route,
 } from 'react-router-dom';
+
+
+Amplify.configure({
+  API: {
+    endpoints: [
+      {
+        name: "MuraAPIGatewayAPI",
+        endpoint:
+          "https://a3i80smzda.execute-api.us-east-1.amazonaws.com",
+      },
+    ],
+  },
+});
 
 function App() {
   return (

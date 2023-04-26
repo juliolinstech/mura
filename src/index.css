@@ -26,6 +26,12 @@ h2 {
   font-weight: bold;
 }
 
+p {
+  text-align: left;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
 /* Anchors */
 
 a {
