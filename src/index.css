@@ -54,6 +54,17 @@ nav a:hover {
   text-decoration-color: white;
 }
 
+.blue_anchor {
+  color: #1842a6;
+  text-decoration: none;
+}
+
+.blue_anchor:hover {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
 /* Footer */
 
 footer {

@@ -1,6 +1,7 @@
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-import { Container, Form, Button, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 function FAQ() {
     return (
@@ -29,11 +30,11 @@ function FAQ() {
           <p>Mura could charge the most affordable market rates at R$1 per report. Furthermore, its security guarantees match those of established startups by ensuring the authenticity, integrity, availability, and confidentiality of evidence collected from public domains, which makes it Chain-of-Custody compliant. Mura accomplishes these goals for desktop and mobile versions in a low-latency, self-sufficient application.</p>
 
           <h3 className="text-center pt-5 pb-2">How can I collect evidence?</h3>
-          <p>Go to the Collection page. Fill out the form with the URL of the webpage you want to collect evidence from. <b>The webpage must not require authentication and it should start with https://</b>. Next, click Submit. Mura will generate a report of the webpage and register it on the Blockchain. Finally, you will receive a URL for downloading the report.</p>
+          <p>Go to the <Link to='/collection' className='blue_anchor'>Collection</Link> page. Fill out the form with the URL of the webpage you want to collect evidence from. <b>The webpage must not require authentication and it should start with https://</b>. Next, click Submit. Mura will generate a report of the webpage and register it on the Blockchain. Finally, you will receive a URL for downloading the report.</p>
 
           <h3 className="text-center pt-5 pb-2">How can I check the authenticity of evidence?</h3>
 
-          <p> Go to the Verification page and insert a PDF report. Next, click Submit. If the report was registered by Mura, you will receive a success message stating the registration timestamp. Otherwise, you will receive a message saying that the PDF was not registered on the Blockchain by Mura. </p>
+          <p> Go to the <Link to='/verification' className='blue_anchor'>Verification</Link> page and insert a PDF report. Next, click Submit. If the report was registered by Mura, you will receive a success message stating the registration timestamp. Otherwise, you will receive a message saying that the PDF was not registered on the Blockchain by Mura. </p>
           </Col>
           <Col sm={2} />
           </Row>
