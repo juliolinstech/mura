@@ -9,7 +9,7 @@ function FAQ() {
         <Header selection="faq" />
         <header className="App-header">
         <div className="pt-5"></div>
-        <Container fluid>
+        <Container fluid >
         <Row>
         <Col sm={2} />
         <Col sm={8} className="borderedDiv" >
@@ -35,6 +35,7 @@ function FAQ() {
 
           <h3 className="text-center pt-5 pb-2">How is Mura different from its competitors?</h3>
           <p>Mura could charge the most affordable market rates at R$1 per report. Furthermore, its security guarantees match those of established startups by ensuring the authenticity, integrity, availability, and confidentiality of evidence collected from public domains, which makes it Chain-of-Custody compliant. Mura accomplishes these goals for desktop and mobile versions in a low-latency, self-sufficient application.</p>
+          <div className="pt-5"></div>
           </Col>
           <Col sm={2} />
           </Row>
