@@ -12,9 +12,9 @@ function FAQ() {
         <Row>
         <Col sm={2} />
         <Col sm={8} className="borderedDiv" >
-          <h2 className="text-center pt-5 pb-2">Frequently Asked Questions</h2>
+          <h2 className="text-center pt-5">Frequently Asked Questions</h2>
           
-          <h3 className="text-center pt-5 pb-2">What is Mura?</h3>
+          <h3 className="text-center pt-4 pb-2">What is Mura?</h3>
           <p>Mura is a website for digital evidence collection. It is designed to serve public figures and lawyers as they prepare libel lawsuits. The platform is Brazil’s first blockchain-based solution to be both Chain-of-Custody compliant, as required by the Brazilian Criminal Procedure Code, and cost-effective.</p>
 
           <h3 className="text-center pt-5 pb-2">Why can't I just take a screenshot?</h3>
