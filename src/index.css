@@ -43,6 +43,18 @@ a:hover {
   color: rgb(224, 224, 224);
 }
 
+a.reply {
+  font-weight: bold;
+  color: rgb(0, 24, 0);
+  text-decoration: none;
+}
+
+a.reply:hover {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+
 nav a {
   color: white;
   text-decoration: none;
