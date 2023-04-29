@@ -12,6 +12,7 @@ function Verification() {
       show: false,
       success: true,
       message: '',
+      address: '',
     });
 
     const [hash, setHash] = useState(null);
@@ -38,13 +39,15 @@ function Verification() {
         setCustomAlert({
           show: true,
           success: true,
-          message: `Sucess! Mura registered this report on ${data['timestamp']}`,
+          message: 'Success! Mura registered this report.',
+          address: `https://explorer.solana.com/address/${data['address']['S']}?cluster=devnet`,
         });
       } else {
         setCustomAlert({
           show: true,
           success: false,
-          message: "Error! Mura did not register this report.",
+          message: "Mura did not register this report.",
+          address: '',
         });
       }
     })
@@ -54,6 +57,7 @@ function Verification() {
         show: true,
         success: false,
         message: "Error",
+        address: '',
       });
       console.log(error.response);
     });

@@ -23,7 +23,7 @@ function FAQ() {
 
           <h3 className="text-center pt-5 pb-2">How can I check the authenticity of evidence?</h3>
 
-          <p> Go to the <Link to='/verification' className='blue_anchor'>Verification</Link> page and insert a PDF report. Next, click Submit. If the report was registered by Mura, you will receive a success message stating the registration timestamp. Otherwise, you will receive a message saying that the PDF was not registered on the Blockchain by Mura. </p>
+          <p> Go to the <Link to='/verification' className='blue_anchor'>Verification</Link> page and insert a PDF report. Next, click Submit. If the report was registered by Mura, you will receive a success message with a URL for accessing more information on the Solana Explorer. Otherwise, you will receive a message saying that the PDF was not registered on the Blockchain by Mura. </p>
 
           <h3 className="text-center pt-5 pb-2">Why can't I just take a screenshot?</h3>
           <p>

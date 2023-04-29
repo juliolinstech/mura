@@ -11,7 +11,7 @@ function CustomAlert(props) {
       dismissible
     >
       {props.customAlert.success ? (
-        <Alert.Heading>{props.customAlert.message}</Alert.Heading>
+        <Alert.Heading>{props.customAlert.message} Read more on the <a className='reply' target='_blank' href={props.customAlert.address}>Solana Explorer</a>.</Alert.Heading>
       ) : (
         <Alert.Heading>{props.customAlert.message}</Alert.Heading>
       )}

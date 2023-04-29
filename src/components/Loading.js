@@ -3,7 +3,7 @@ import { Button, Spinner } from 'react-bootstrap';
 
 function Loading() {
   return (
-    <Button variant="primary" className="submitButton" disabled>
+    <Button className="submitButton" variant="primary" disabled>
       <Spinner
         as="span"
         animation="border"
